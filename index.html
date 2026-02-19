@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Rehman | Global YT Downloader</title>
+    <link href="https://cdn.jsdelivr.net" rel="stylesheet">
+    <style>
+        body { background: #0f0c29; background: linear-gradient(to right, #24243e, #302b63, #0f0c29); color: white; min-height: 100vh; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .navbar { background: rgba(0, 0, 0, 0.6) !important; backdrop-filter: blur(10px); }
+        .download-box { background: rgba(255, 255, 255, 0.1); padding: 40px; border-radius: 20px; backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8); }
+        .btn-custom { padding: 12px 25px; border-radius: 50px; font-weight: bold; transition: 0.3s; width: 100%; margin-bottom: 10px; }
+        .btn-video { background: #ff0000; color: white; border: none; }
+        .btn-audio { background: #00c853; color: white; border: none; }
+        input { border-radius: 50px !important; padding: 15px 25px !important; margin-bottom: 20px !important; }
+        .ad-slot { background: rgba(255,255,255,0.05); border: 1px dashed #555; padding: 10px; margin: 20px 0; color: #777; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><span style="color: #ff0000;">AR</span> | Abdul Rehman</a>
+        </div>
+    </nav>
+
+    <div class="container py-5 text-center">
+        <h1 class="display-4 fw-bold mb-3">Global YouTube Downloader 🚀</h1>
+        <p class="lead mb-4">Fast, Free and Safe. No installation required!</p>
+
+        <!-- TOP AD SLOT -->
+        <div class="ad-slot">ADVERTISEMENT - PLACE YOUR AD CODE HERE</div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-7 download-box">
+                <form action="/download" method="post">
+                    <input type="text" name="url" class="form-control form-control-lg" placeholder="Paste YouTube link here (e.g. https://youtu.be...)" required>
+                    
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <button type="submit" name="choice" value="video" class="btn-custom btn-video">Download Video (MP4)</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="submit" name="choice" value="audio" class="btn-custom btn-audio">Download Audio (MP3)</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- BOTTOM AD SLOT -->
+        <div class="ad-slot">ADVERTISEMENT - PLACE YOUR AD CODE HERE</div>
+        
+        <div class="mt-4">
+            <a href="https://www.buymeacoffee.com" target="_blank">
+                <img src="https://cdn.buymeacoffee.com" alt="Buy Me A Coffee" style="height: 50px !important;width: 180px !important;" >
+            </a>
+        </div>
+    </div>
+
+    <footer class="text-center py-4 mt-5 border-top border-secondary">
+        <p>© 2024 Built by <strong>Abdul Rehman</strong>. Global Service.</p>
+    </footer>
+
+</body>
+</html>
