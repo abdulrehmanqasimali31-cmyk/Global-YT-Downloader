@@ -1,2 +1,3 @@
-# Global-YT-Downloader
-"A professional, high-speed YouTube Video &amp; Audio Downloader built with Python (Flask) and yt-dlp. Supports high-quality MP4 video and MP3 audio extraction. Fully responsive, user-friendly interface designed by Abdul Rehman for global users. Optimized for fast processing and 24/7 uptime on cloud hosting."
+"# Global YT Downloader by Abdul Rehman 🚀
+Fast, Free, and Secure YouTube Video (MP4) & Audio (MP3) Downloader built with Python Flask and yt-dlp. Optimized for global users with 24/7 uptime."
+Is se tumhari repository ki SEO behtar hogi aur Google isay pasand karega. 
